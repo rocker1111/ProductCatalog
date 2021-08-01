@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product - Catalog</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+</head>
+<body>
+    <div class="container">
+        <nav class="navbar navbar-dark bg-dark d-flex">
+            <div class="navbar-brand m-auto">
+                <h1>Product Catalog </h1>
+            </div>
+            <input type="text" class="form-control m-3" id="filter" name="filter" placeholder="filter Your Product...">
+        </nav>
+
+        <div class="card card-body">
+            <ul class="list-group collection">
+                <!-- <li class="list-group-item collection-item" id="product-0">
+                    <strong>Microphone</strong> -
+                    <span class="price">$30</span>
+                    <i class="far fa-trash-alt float-right delete-btn"></i>
+                </li> -->
+                <!-- <li class="list-group-item collection-item">
+                    <strong>Microphone</strong> -
+                    <span class="price">$30</span>
+                    <i class="far fa-trash-alt float-right"></i>
+                </li>
+                <li class="list-group-item collection-item">
+                    <strong>Microphone</strong> -
+                    <span class="price">$30</span>
+                    <i class="far fa-trash-alt float-right"></i> -->
+                </li>
+            </ul>
+            <span class="msg"></span>
+            <form>
+                <div class="row mt-4">
+                    <div class="col">
+                        <input type="text" placeholder="Product Name" class="form-control productName">
+                    </div>
+                    <div class="col">
+                        <input type="number" placeholder="Product Price" class="form-control productPrice">
+                    </div>
+                </div>
+                <button class="btn btn-primary add-product btn-block mt-3">Submit</button>
+            </form>
+        </div>
+    </div>
+
+    
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>
